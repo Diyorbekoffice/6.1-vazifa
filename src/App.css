@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans';
+  background: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 21px 41px;
+  color: #034833;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+nav ul li {
+  margin: 0 20px;
+
+}
+
+a {
+  color: #034833;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  transition: all .4s linear;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #83CD20;
+  padding: 5px 18px;
+  border-radius: 25px;
+}
+
+.chat-help {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.chat-icon {
+  width: 55px;
+  height: 55px;
+}
+
+.help-info span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #727272;
+}
+
+.help-info p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #034833;
+}
+
+
+.hero {
+  background-color: #034833;
+  background-image: url('./img/hero_fon.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+
+.hero-content h1,
+.hero-content h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+}
+
+.hero-content span {
+  color: #83CD20;
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.btn {
+  margin-top: 30px;
+  gap: 10px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 150px;
+  text-align: center;
+  padding: 20px 30px;
+  background: #83CD20;
+  color: #fff;
+  border: none;
+  transition: all .4s linear;
+}
+
+.btn:hover {
+  color: #83CD20;
+  background-color: #034833;
+  border: 1px solid #fff;
+
+}
+
+
+
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+
+.about-image img {
+  width: 600px;
+  height: 600px;
+}
+
+.about-content {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1.399999976158142px;
+  text-transform: uppercase;
+  color: #034833;
+}
+
+.about-header .about-icon {
+  width: 14px;
+  height: 12px;
+}
+
+.about h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #16171A;
+  margin-top: 10px;
+}
+
+.about h3 span {
+  color: #034833;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #727272;
+}
+
+.checkbox-section {
+  display: flex;
+  gap: 60px;
+}
+
+.checkbox-item input {
+  margin-bottom: 5px;
+  background-color: #83CD20;
+}
+
+input:checked {
+  accent-color: #83CD20;
+}
+
+.checkbox-item label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.chek {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #034833;
+}
+
+.checkbox-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
